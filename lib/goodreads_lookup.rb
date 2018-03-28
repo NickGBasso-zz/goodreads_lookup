@@ -8,6 +8,6 @@ module GoodreadsLookup
     title = /<title>(.+?)<\/title>/.match(goodReadsBook.at_xpath("//title").to_s).captures[0]
     name = /<name>(.+?)<\/name>/.match(goodReadsBook.at_xpath("//name").to_s).captures[0]
 
-    return "#{name} by #{title}"
+    return "#{title} by #{name}"
   end
 end
