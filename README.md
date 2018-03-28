@@ -17,6 +17,7 @@ Or install it yourself as:
 ## Usage
 
 Use the getBook method and pass in an ISBN number. A string containing the title and author will be returned.
+One caveat however, the ISBN must be passed between quotation marks and not as an integer.
 
 ## Development
 
